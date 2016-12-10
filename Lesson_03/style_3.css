@@ -1,0 +1,157 @@
+body {
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    height: 1080px;
+    padding: 40px;
+}
+
+.header {
+    width: 1100px;
+    height: 50px;
+}
+
+.header img {
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.panel {
+    width: 1100px;
+    height: 45.5px;
+    background: linear-gradient(to bottom, #4b4b4b 0%, #828c95 36%, #4b4b4b 100%);
+    font-size: 15px; /* Размер шрифта */
+    padding: 0px 0px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border: 0px solid #4b4b4b; /* Параметры рамки */
+}
+
+.menu{
+    display: inline;
+    list-style: none;   /* маркеры удаляем */
+}
+
+.menu li {
+    float: left;                /* в один ряд */
+    margin-right: 0px;  /* чтобы список не сливался */
+}
+
+.menu li a{
+    display: block;  /* для внутренних отсупов  */
+    padding: 11px 50px;
+    background: linear-gradient(to bottom, #4b4b4b 0%, #828c95 36%, #4b4b4b 100%);
+    font-size: 15px; /* Размер шрифта */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #4b4b4b; /* Параметры рамки */
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px grey;
+}
+.menu li a:hover { 
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    color: #3e3e3e; 
+    background: #3b393b;
+    color: #fff;
+    text-shadow: 1px 1px 1px grey;
+}
+ 
+.main-menu {
+    border: 1px solid #c8c8c8;
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.main-menu a {
+    display: block;
+    margin-bottom: 1px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #a3a1a1;
+    text-shadow: 1px 1px 1px grey; 
+}
+
+.main-menu li {
+    border-bottom: 1px solid #e5e5e5; 
+}
+
+.main-menu li:hover {
+    padding-left:10px; 
+    color: black;
+    background-color: #f5f5f5;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.main-menu a:hover {
+    background: #f5f5f5;
+}
+
+.block_right {
+    float: right;
+    width: 790px;
+    height: 500px;
+    border: 1px solid #c8c8c8;
+    margin-top: -271px;
+}
+
+
+.block_right img {
+    width: 580px;
+    height: 367px;
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-right: 100px;
+}
+
+.text {
+    padding: 25px;
+    margin-top: 40px;
+    margin-right: 30px;
+    color: #808080;
+}
+
+ .shadowtext {
+    text-shadow: 0px 0px 0px grey; /* Параметры тени */
+   }
+
+.footer {
+    margin-top: 550px;
+    background: #e1e1e1; /* Цвет фона подвала */
+    color: #050505; /* Цвет текста */
+    padding: 1px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+    font-size: 11px;
+    margin-bottom: 30px;
+   }
+
+.footer li {
+    text-shadow: #050505;
+    font-size: 15px;
+    display: inline;
+    padding: 45px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer li:last-child {
+    float: right;
+    font-size: 15px;
+    list-style: none;
+    padding-top: 11px;
+    padding-right: 30px;
+    margin-top: -10px;
+    text-decoration: none;
+  }
