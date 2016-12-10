@@ -1,0 +1,21 @@
+.centerLayer {
+  width: 500px; /* Ширина слоя в пикселах */
+  margin: 0 auto; /* Отступ слева и справа */
+  padding: 10px; /* Поля вокруг текста */
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+}
+
+.grayText {
+  color: #707070;
+}
+
+p {
+  text-indent: 30px;
+}
