@@ -1,3 +1,9 @@
+body{
+    background: #0C739E url(background.jpg);
+    font-family:Tahoma, sans-serif;
+    background-repeat: repeat-x;
+}
+
 *{
     margin:0;
     padding:0;
@@ -17,12 +23,6 @@ a {
     text-decoration:none;
 }
 
-body{
-    background:url(background.jpg);
-    font-family:Tahoma, sans-serif;
-    height:1010px;
-}
-
 .wrapper{
     background-color:white;
     width:1000px;
@@ -33,6 +33,7 @@ body{
 
 .info {
     padding-top: 9px;
+    position: relative;
 }
 
 .logo{
@@ -56,7 +57,7 @@ body{
 .flag{
     position:absolute;
     top:150px;
-    right:170px;
+    right: 0px;
 }
 
 .flag li{
@@ -71,11 +72,11 @@ body{
 }
 
 .india{
-    padding-right:25px;
+    padding-right:18px;
 }
 
 .nepal{
-    padding-right:25px;
+    padding-right:20px;
 }
 
 .tybet{
@@ -109,7 +110,7 @@ body{
 .menu{
     background-color:#303030;
     box-shadow:0 0 7px #000;
-    font-size:15px;
+    font-size:13px;
     border-bottom:1px solid black;
 }
 
