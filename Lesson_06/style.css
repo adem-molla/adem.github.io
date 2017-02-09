@@ -174,7 +174,7 @@ i.fa.fa-envelope-o {
 	color: #ffffff;
 	text-decoration: none;
 	padding-left: 20px;
-	padding: 6px 12px;
+	padding: 6px 16px;
 	font-size: 14px;
 	font-family: "Lucida Sans Unicode";
 }
@@ -262,9 +262,9 @@ i.fa.fa-envelope-o {
 
 .searchBox {
 	height: 133px;
-	margin-left: 44px;
+	margin-left: 40px;
 	border: 1px solid #9c9c9d;
-	border-radius: 16px;
+	border-radius: 17px;
 	box-shadow: 0 5px 5px 0 rgba(150, 150, 150, .75);
 	background-color: #fff;
 	font-size: 10px;
@@ -368,7 +368,7 @@ input[type=checkbox] {
    margin: 5px;
 }
   
-  .right {
+.right {
   	width: 268px;
   	height: 133px;
   	border: 1px solid #9c9c9d;
@@ -377,16 +377,16 @@ input[type=checkbox] {
 	margin-top: 10px;
 	box-shadow: 0 5px 5px 0 rgba(150, 150, 150, .75);
  	position: relative;	 
-  }
+ }
 
-  .findweels p {
+ .findweels p {
   	margin-top: 1px;
     color: #154467;
     font-family: "Arial Black","Arial Bold", Gadget, sans-serif;
     font-size: 12px;
     margin-left: 10px;
     letter-spacing: 0.08em;
-  }
+ }
 
 .rightweels label {
 	font-size: 10px;
@@ -469,19 +469,22 @@ input[type=checkbox] {
     clear: both;
     display: flexbox;
     flex-flow: wrap row; 
+    margin-top: -6px;
 }
 .lefttires {
-	width: 220px;
+	width: 203px;
+	margin-top: -7px;
 }
 
 .feet {
 	display: flex;
 	margin-top: 20px;
-	margin-left: 10px;
+	margin-left: 26px;
 }
 
 .four {
-	width: 250px;
+	width: 248px;
+	margin-top: -11px
 }
 
 .lefttires a {
@@ -489,18 +492,18 @@ input[type=checkbox] {
 	display: block;
 	text-decoration: none;
 	padding: 5px 0px;
-	font-size: 13px;
-	margin-left: 60px;
+	font-size: 14px;
+	margin-left: 55px;
 	position: relative;
 }
 
 i.fa.fa-circle-thin {
 	color: #0c3256;
-	font-weight: 700;
+	font-weight: 900;
 	display: block;
-	margin-left: 50px;
+	margin-left: 46px;
 	font-size: 6px;
-	margin-top: 9px;
+	margin-top: 8px;
 	position: absolute;
 }
 
@@ -527,15 +530,15 @@ i.fa.fa-circle {
     display: block;
     top: 2px;
     left: 2px;
-    width: 23px;
-    height: 19px;
+    width: 22px;
+    height: 18px;
     background: #114165;
-    border-radius: 12px;
+    border-radius: 13px;
     color: white;
-    font-size: 15px;
-    padding-top: 4px;
+    font-size: 13px;
+    padding-top: 5px;
     text-align: center;
-    margin-left: 4px;
+    margin-left: 0px;
 }
 
 
@@ -572,11 +575,11 @@ i.fa.fa-circle {
     width: 140px;
     height: 180px; 
     text-align: center; 
-    margin: 14px 1px;
+    margin: 9px 0px;
     clear: both;
 }
 .none h1 {
-	line-height: 1px;
+	line-height: 0px;
 	color: #206988;
 	font-weight: bold;
 }
@@ -584,12 +587,14 @@ i.fa.fa-circle {
 	line-height: 1px;
 	font-size: 14px;
 	color: #1f2528;
+	margin-top: 10px;
 }
 
 
 figure {
 	margin: 0 auto;
-	padding-left: 20px;
+	padding-left: 21px;
+	margin-right: 7px;
 }
 
 .hope {
@@ -626,9 +631,9 @@ figure {
     width: 140px;
     height: 180px;
     text-align: center;
-    margin: 14px 1px;
+    margin: 15px 5px;
     margin-bottom: 5px;
-
+	margin-top: 28px;
 }
 
 .down h1 {
@@ -648,8 +653,8 @@ figure {
 .four input[type="checkbox"] {
 	box-shadow: none;
 	display: block;
-	margin-left: 41px;
-	margin-top: 14px; 
+	margin-left: 32px;
+	margin-top: 12px; 
 	box-shadow: 2px 2px 2px 2px #fff;
 	background-color: #fff;
 }
@@ -665,23 +670,24 @@ input::-webkit-input-placeholder{color:#fff}
 
 
 .circle {
-	height: 25px;
-    width: 179px;
+	height: 24px;
+    width: 180px;
     display: inline-block;
     position: relative;
     border-radius: 15px;
     border: 1px solid hsla(0, 0%, 0%, .3);
     box-shadow: 1px 2px 4px 0 hsla(0, 0%, 0%, .3);
     letter-spacing: -0.015em;
-    margin-left: 24px;
-    margin-bottom: 9px;
+    margin-left: 9px;
+    margin-bottom: 18px;
+    margin-top: 7px;
 }
 
 .photocircle {
 	position: absolute;
     display: block;
-    top: -15px;
-    left: 4px;
+    top: -16px;
+    left: 1px;
     width: 22px;
     height: 22px;
     background: linear-gradient(to bottom, #1f6786, #0c3357);
@@ -691,13 +697,13 @@ input::-webkit-input-placeholder{color:#fff}
 
 .circle h2 {
 	display: inline-block;
-    text-indent: 28px;
-    font-size: 81%;
+    text-indent: 29px;
+    font-size: 74%;
     font-family: Lucida, sans-serif;
     color: #114165;
     font-weight: bold;
-    line-height: 4px;
-    padding-left: 5px;
+    line-height: 5px;
+    padding-left: 0px;
 }
 
 .circleicon {
@@ -714,14 +720,18 @@ input::-webkit-input-placeholder{color:#fff}
 .four a{
 	background-color: #164e70;
 	color: #e5e9ea;
-	font-size: 10px;
+	font-size: 11px;
 	border-radius: 15px;
 	text-decoration: none;
-	padding: 4px;
+	padding: 7px;
 	font-family: Arial,sans-serif;
-	letter-spacing: 0.08px;
-	margin-left: 20px;
-	margin-top: 10px;
+	letter-spacing: 1px;
+	margin-left: 32px;
+	margin-top: 11px;
+	padding-bottom: 6px;
+	padding: 7px;
+	padding-left: 12px;
+	padding-right: 11px;
 }
 
 
@@ -752,22 +762,22 @@ input::-webkit-input-placeholder{color:#fff}
 }
 
 footer {
-	width: 909px;
-	height: 99px;
+	width: 910px;
+	height: 100px;
 	background-color: #213a4d;
 	position: center;
 	margin-right: 30px; 
-	margin-left: 30px;
+	margin-left: 34px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 footer a {
 	color: white;
 	text-decoration: none;
-	font-size: 12px;
-	border-right: 1px solid white;
-	padding-left: 10px;
+	font-size: 13px;
+	border-right: 2px solid white;
+	padding-left: 13px;
 	padding-right: 10px; 
 
 }
@@ -777,8 +787,9 @@ footer a:hover {
 }
 
 footer p {
-	font-size: 10px;
+	font-size: 13px;
 	color: #794641;
+	margin-top: 19px;
 }
 
 .one {
@@ -788,41 +799,63 @@ footer p {
 
 .logophoto {
 	align-items: center;
-	margin-left: 154px;
+	margin-left: 140px;
+	margin-top: 27px;
 }
 
 
 .four label{ 
 	display: block;
-	padding-left: 60px;
-	margin-top: -19px;
+	padding-left: 56px;
+	margin-top: -20px;
  	color: #465961;
     text-decoration: none;
     font-size: 0.8em;
     font-weight: bold;
     font-family: Lucida, sans-serif;
     letter-spacing: 0.0001em;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
  }
 
  .icontires {
  	height: 26px;
-    width: 148px;
+    width: 149px;
     display: inline-block;
     position: relative;
     border-radius: 20px;
     border: 1px solid #79878d;
-    margin-left: 20px;
+    margin-left: 12px;
+    margin-top: -6px
  }
 
+.icontires1 {
+ 	height: 26px;
+    width: 135px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #79878d;
+    margin-left: 21px;
+    margin-top: -2px
+ }
 
- .icontires h3 {
+ .icontires1 h3 {
  	display: inline-block;
-    text-indent: 28px;
-    font-size: 91%;
+    text-indent: 27px;
+    font-size: 85%;
     font-family: Lucida, sans-serif;
     color: #114165;
     font-weight: bold;
     line-height: 1px;
     padding-left: 5px;
+}
+
+ .icontires h3 {
+ 	display: inline-block;
+    text-indent: 27px;
+    font-size: 85%;
+    font-family: Lucida, sans-serif;
+    color: #114165;
+    font-weight: bold;
+    line-height: 1px;
 }
