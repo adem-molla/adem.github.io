@@ -601,7 +601,7 @@ figure {
 	display: flex;
 }
 
-.suka {
+.asa  {
 	margin-top: 50px;
 	display: flex;
     width: 140px;
@@ -611,18 +611,18 @@ figure {
     clear: both;
 }
 
-.suka h1 {
+.asa  h1 {
 	color: #417d97;
 	line-height: 1px;
 	font-weight: bold;
 }
 
-.suka p {
+.asa  p {
 	line-height: 1px;
 	font-size: 14px;
 	color: #60686b;
 }
-.suka figcaption {
+.asa figcaption {
 	color: #114165;
 }
 
