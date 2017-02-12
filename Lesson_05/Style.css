@@ -189,8 +189,9 @@ span {
 .container {
 	position: absolute;
     top: 50%;
-    left: 30%;
-    transform: translateY(-40%);
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -275px;
 }
 
 .ou p{
